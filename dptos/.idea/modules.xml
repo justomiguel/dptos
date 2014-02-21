@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/target/appfuse-root/appfuse.iml" filepath="$PROJECT_DIR$/target/appfuse-root/appfuse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/target/appfuse-root/appfuse-data/appfuse-data.iml" filepath="$PROJECT_DIR$/target/appfuse-root/appfuse-data/appfuse-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/target/appfuse-root/appfuse-data/appfuse-data-common/appfuse-data-common.iml" filepath="$PROJECT_DIR$/target/appfuse-root/appfuse-data/appfuse-data-common/appfuse-data-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/target/appfuse-root/appfuse-data/appfuse-hibernate/appfuse-hibernate.iml" filepath="$PROJECT_DIR$/target/appfuse-root/appfuse-data/appfuse-hibernate/appfuse-hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/target/appfuse-root/appfuse-service/appfuse-service.iml" filepath="$PROJECT_DIR$/target/appfuse-root/appfuse-service/appfuse-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/target/appfuse-root/appfuse-web/appfuse-web.iml" filepath="$PROJECT_DIR$/target/appfuse-root/appfuse-web/appfuse-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dptos.iml" filepath="$PROJECT_DIR$/dptos.iml" />
+    </modules>
+  </component>
+</project>
+
