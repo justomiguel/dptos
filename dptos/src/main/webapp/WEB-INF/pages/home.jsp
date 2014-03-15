@@ -17,4 +17,23 @@
         <a href="<c:url value='/fileupload'/>"><fmt:message key="menu.selectFile"/></a>
     </li>
 </ul>
+
+ <form:form commandName="homeSearch" method="post" action="home" enctype="multipart/form-data"
+        id="mainSearchBox">
+        <spring:bind path="homeSearch.locationToSearch">
+        <div class="form-group${(not empty status.errorMessage) ? ' has-error' : ''}">
+        </spring:bind>
+        	<appfuse:label key="homeSearch.locationToSearch" styleClass="control-label"/>
+            <form:input cssClass="form-control" path="locationToSearch" id="locationToSearch"/>
+            <form:errors path="locationToSearch" cssClass="help-block"/>
+        </div>
+        <div class="form-group">
+            <button type="submit" name="upload" class="btn btn-primary" onclick="bCancel=false">
+                <i class="icon-upload icon-white"></i> <fmt:message key="button.upload"/>
+            </button>
+            <button type="submit" name="cancel" class="btn btn-default" onclick="bCancel=true">
+                <i class="icon-remove"></i> <fmt:message key="button.cancel"/>
+            </button>
+        </div>
+    </form:form>
 </body>
