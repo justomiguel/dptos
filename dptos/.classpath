@@ -24,7 +24,7 @@
   <classpathentry kind="var" path="M2_REPO/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
   <classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
   <classpathentry kind="var" path="M2_REPO/displaytag/displaytag/1.2/displaytag-1.2.jar"/>
-  <classpathentry kind="var" path="M2_REPO/com/lowagie/itext/1.3/itext-1.3.jar" sourcepath="M2_REPO/com/lowagie/itext/1.3/itext-1.3-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/lowagie/itext/1.3/itext-1.3.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"/>
   <classpathentry kind="var" path="M2_REPO/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
@@ -56,11 +56,11 @@
   <classpathentry kind="var" path="M2_REPO/org/apache/neethi/neethi/3.0.2/neethi-3.0.2.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/apache/velocity/velocity/1.7/velocity-1.7.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar"/>
-  <classpathentry kind="var" path="M2_REPO/commons-digester/commons-digester/1.7/commons-digester-1.7.jar" sourcepath="M2_REPO/commons-digester/commons-digester/1.7/commons-digester-1.7-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-digester/commons-digester/1.7/commons-digester-1.7.jar"/>
   <classpathentry kind="var" path="M2_REPO/commons-chain/commons-chain/1.1/commons-chain-1.1.jar"/>
   <classpathentry kind="var" path="M2_REPO/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.jar"/>
   <classpathentry kind="var" path="M2_REPO/dom4j/dom4j/1.1/dom4j-1.1.jar"/>
-  <classpathentry kind="var" path="M2_REPO/oro/oro/2.0.8/oro-2.0.8.jar" sourcepath="M2_REPO/oro/oro/2.0.8/oro-2.0.8-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/oro/oro/2.0.8/oro-2.0.8.jar"/>
   <classpathentry kind="var" path="M2_REPO/sslext/sslext/1.2-0/sslext-1.2-0.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/apache/struts/struts-core/1.3.8/struts-core-1.3.8.jar"/>
   <classpathentry kind="var" path="M2_REPO/antlr/antlr/2.7.7/antlr-2.7.7.jar"/>
@@ -127,7 +127,7 @@
   <classpathentry kind="var" path="M2_REPO/org/springframework/security/spring-security-taglibs/3.2.0.RELEASE/spring-security-taglibs-3.2.0.RELEASE.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/springframework/security/spring-security-acl/3.2.0.RELEASE/spring-security-acl-3.2.0.RELEASE.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/springframework/security/spring-security-web/3.2.0.RELEASE/spring-security-web-3.2.0.RELEASE.jar"/>
-  <classpathentry kind="var" path="M2_REPO/org/springmodules/spring-modules-validation/0.8/spring-modules-validation-0.8.jar" sourcepath="M2_REPO/org/springmodules/spring-modules-validation/0.8/spring-modules-validation-0.8-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springmodules/spring-modules-validation/0.8/spring-modules-validation-0.8.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/springframework/spring/2.0.3/spring-2.0.3.jar"/>
   <classpathentry kind="var" path="M2_REPO/rhino/js/1.6R2/js-1.6R2.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/subethamail/subethasmtp-wiser/1.2/subethasmtp-wiser-1.2.jar"/>
