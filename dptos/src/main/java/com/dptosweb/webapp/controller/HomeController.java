@@ -23,7 +23,7 @@ public class HomeController extends BaseFormController {
 	@RequestMapping(method = RequestMethod.GET)
 	public HomeSearch showForm() {
 		HomeSearch search = new HomeSearch();
-		search.setLocationToSearch("test for Jona");
+		//search.setLocationToSearch("test for Jona");
 		return search;
 	}
 
