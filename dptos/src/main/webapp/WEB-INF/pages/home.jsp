@@ -45,7 +45,7 @@
         <div class="form-group${(not empty status.errorMessage) ? ' has-error' : ''}">
     </spring:bind>
             <appfuse:label key="homeSearch.locationToSearch" styleClass="control-label"/>
-            <form:input cssClass="form-control" path="locationToSearch" placeholder="Ingrese la ciudad o Provincia, para comenzar" id="locationToSearch"/>
+            <form:input cssClass="form-control" path="locationToSearch" placeHolder="${mainPlaceHolder}" id="locationToSearch"/>
             <form:errors path="locationToSearch" cssClass="help-block"/>
         </div>
     <div class="form-group">
