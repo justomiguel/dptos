@@ -24,6 +24,7 @@
         <jaxrs:serviceBeans>
             <ref bean="userManager"/>
             <ref bean="provinciaManager"/>
+            <ref bean="localidadManager"/>
         </jaxrs:serviceBeans>
         <jaxrs:providers>
             <ref bean="jsonProvider"/>

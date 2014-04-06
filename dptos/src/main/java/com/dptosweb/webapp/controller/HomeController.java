@@ -17,7 +17,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.dptosweb.model.Tag;
+import com.dptosweb.model.ciudades.Localidad;
 import com.dptosweb.model.ciudades.Provincia;
+import com.dptosweb.service.LocalidadManager;
 import com.dptosweb.service.ProvinciaManager;
 import com.dptosweb.service.UserManager;
 import com.dptosweb.webapp.controller.forms.HomeSearch;
@@ -28,6 +30,9 @@ public class HomeController extends BaseFormController {
 	@Autowired
 	ProvinciaManager provinciasManager;
 
+	@Autowired
+	LocalidadManager localidadesManager;
+	
 	public HomeController() {
 		setCancelView("redirect:/home");
 		setSuccessView("uploadDisplay");
@@ -42,6 +47,10 @@ public class HomeController extends BaseFormController {
 		
 		for (Provincia pcias : provinciasManager.getProvincias()) {
 			data.add(new Tag(cont++, pcias.getNombre()));
+		}
+		
+		for (Localidad localidades : localidadesManager.getLocalidades()) {
+			data.add(new Tag(cont++, localidades.getNombre()));
 		}
 		// iterate a list and filter by tagName
 		  for (Tag tag : data) {

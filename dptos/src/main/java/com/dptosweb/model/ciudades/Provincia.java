@@ -13,6 +13,8 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.xml.bind.annotation.XmlRootElement;
 
+import org.hibernate.annotations.Cascade;
+import org.hibernate.annotations.CascadeType;
 import org.hibernate.search.annotations.Indexed;
 
 /**
@@ -54,6 +56,7 @@ public class Provincia implements java.io.Serializable {
 	}
 
 	@OneToMany(fetch = FetchType.LAZY)
+	@Cascade({CascadeType.SAVE_UPDATE, CascadeType.DELETE})
 	public Set<Departamento> getDepartamentos() {
 		return this.departamentos;
 	}
@@ -63,6 +66,7 @@ public class Provincia implements java.io.Serializable {
 	}
 
 	@OneToMany(fetch = FetchType.LAZY)
+	@Cascade({CascadeType.SAVE_UPDATE, CascadeType.DELETE})
 	public Set<Localidad> getLocalidades() {
 		return this.localidades;
 	}
