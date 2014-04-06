@@ -29,8 +29,12 @@
 </head>
 <body class="home">
     <h2><fmt:message key="home.heading"/></h2>
-    <p><fmt:message key="home.message"/></p>
+    
 
+    <!-- 
+    
+    //menu del user
+    <p><fmt:message key="home.message"/></p>
     <ul class="glassList">
         <li>
             <a href="<c:url value='/userform'/>"><fmt:message key="menu.user"/></a>
@@ -39,6 +43,8 @@
             <a href="<c:url value='/fileupload'/>"><fmt:message key="menu.selectFile"/></a>
         </li>
     </ul>
+    
+     -->
    <form:form commandName="homeSearch" method="post" action="home" enctype="multipart/form-data"
         id="mainSearchBox">
     <spring:bind path="homeSearch.locationToSearch">
@@ -52,9 +58,6 @@
         <button type="submit" name="upload" class="btn btn-primary" onclick="bCancel=false">
             <i class="icon-upload icon-white"></i> <fmt:message key="button.upload"/>
         </button>
-        <button type="submit" name="cancel" class="btn btn-default" onclick="bCancel=true">
-            <i class="icon-remove"></i> <fmt:message key="button.cancel"/>
-    R    </button>
     </div>
     </form:form>
 </body>
