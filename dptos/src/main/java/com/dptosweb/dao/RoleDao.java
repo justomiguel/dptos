@@ -5,7 +5,7 @@ import com.dptosweb.model.Role;
 /**
  * Role Data Access Object (DAO) interface.
  *
- * @author <a href="mailto:matt@raibledesigns.com">Matt Raible</a>
+ * @author <a href="mailto:justomiguelvargas@gmail.com">Justo Vargas</a>
  */
 public interface RoleDao extends GenericDao<Role, Long> {
     /**

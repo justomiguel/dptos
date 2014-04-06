@@ -18,8 +18,8 @@ import java.io.Serializable;
 /**
  * This class is used to represent available roles in the database.
  *
- * @author <a href="mailto:matt@raibledesigns.com">Matt Raible</a>
- *         Version by Dan Kibler dan@getrolling.com
+ * @author <a href="mailto:justomiguelvargas@gmail.com">Justo Vargas</a>
+ *         Version by        
  *         Extended to implement Acegi GrantedAuthority interface
  *         by David Carter david@carter.net
  */

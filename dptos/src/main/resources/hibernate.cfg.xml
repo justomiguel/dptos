@@ -8,5 +8,8 @@
     <session-factory>
         <mapping class="com.dptosweb.model.User"/>
         <mapping class="com.dptosweb.model.Role"/>
+        <mapping class="com.dptosweb.model.ciudades.Provincia"/>
+        <mapping class="com.dptosweb.model.ciudades.Localidad"/>
+        <mapping class="com.dptosweb.model.ciudades.Departamento"/>
     </session-factory>
 </hibernate-configuration>

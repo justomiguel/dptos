@@ -42,7 +42,7 @@ import java.util.List;
  *
  * @param <T>  a type variable
  * @param <PK> the primary key for that type
- * @author <a href="mailto:matt@raibledesigns.com">Matt Raible</a>
+ * @author <a href="mailto:justomiguelvargas@gmail.com">Justo Vargas</a>
  *  Updated by jgarcia: added full text search + reindexing
  */
 public class GenericManagerImpl<T, PK extends Serializable> implements GenericManager<T, PK> {

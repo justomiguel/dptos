@@ -5,6 +5,9 @@
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
         <class>com.dptosweb.model.User</class>
         <class>com.dptosweb.model.Role</class>
+        <class>com.dptosweb.model.ciudades.Provincia</class>
+        <class>com.dptosweb.model.ciudades.Localidad</class>
+        <class>com.dptosweb.model.ciudades.Departamento</class>
     </persistence-unit>
 
     <!-- WARNING: This file's file original source is at web/common/src/main/resources/META-INF. The

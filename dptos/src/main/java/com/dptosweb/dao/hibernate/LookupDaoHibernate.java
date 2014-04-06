@@ -14,7 +14,7 @@ import org.hibernate.Session;
 /**
  * Hibernate implementation of LookupDao.
  *
- * @author <a href="mailto:matt@raibledesigns.com">Matt Raible</a>
+ * @author <a href="mailto:justomiguelvargas@gmail.com">Justo Vargas</a>
  *      Modified by jgarcia: updated to hibernate 4
  */
 @Repository

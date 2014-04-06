@@ -31,7 +31,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  *
  * <p><a href="UserFormController.java.html"><i>View Source</i></a>
  *
- * @author <a href="mailto:matt@raibledesigns.com">Matt Raible</a>
+ * @author <a href="mailto:justomiguelvargas@gmail.com">Justo Vargas</a>
  */
 @Controller
 @RequestMapping("/userform*")

@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * Implementation of LookupManager interface to talk to the persistence layer.
  *
- * @author <a href="mailto:matt@raibledesigns.com">Matt Raible</a>
+ * @author <a href="mailto:justomiguelvargas@gmail.com">Justo Vargas</a>
  */
 @Service("lookupManager")
 public class LookupManagerImpl implements LookupManager {

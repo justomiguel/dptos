@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * Implementation of RoleManager interface.
  *
- * @author <a href="mailto:dan@getrolling.com">Dan Kibler</a>
+ * @author <a href="mailto:  ">    </a>
  */
 @Service("roleManager")
 public class RoleManagerImpl extends GenericManagerImpl<Role, Long> implements RoleManager {

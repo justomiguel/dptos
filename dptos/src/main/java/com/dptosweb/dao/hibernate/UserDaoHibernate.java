@@ -22,8 +22,8 @@ import org.hibernate.criterion.Restrictions;
  * This class interacts with Hibernate session to save/delete and
  * retrieve User objects.
  *
- * @author <a href="mailto:matt@raibledesigns.com">Matt Raible</a>
- *   Modified by <a href="mailto:dan@getrolling.com">Dan Kibler</a>
+ * @author <a href="mailto:justomiguelvargas@gmail.com">Justo Vargas</a>
+ *   Modified by <a href="mailto:  ">    </a>
  *   Extended to implement Acegi UserDetailsService interface by David Carter david@carter.net
  *   Modified by <a href="mailto:bwnoll@gmail.com">Bryan Noll</a> to work with
  *   the new BaseDaoHibernate implementation that uses generics.

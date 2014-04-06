@@ -34,7 +34,7 @@ import java.util.jar.Manifest;
  * GenericDao or service level to avoid LazyInitializationException. Hibernate.initialize() works
  * well for doing this.
  *
- * @author <a href="mailto:matt@raibledesigns.com">Matt Raible</a>
+ * @author <a href="mailto:justomiguelvargas@gmail.com">Justo Vargas</a>
  */
 public class StartupListener implements ServletContextListener {
     private static final Log log = LogFactory.getLog(StartupListener.class);

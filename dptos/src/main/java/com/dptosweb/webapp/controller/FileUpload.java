@@ -8,7 +8,7 @@ package com.dptosweb.webapp.controller;
  * <a href="FileUpload.java.html"><i>View Source</i></a>
  * </p>
  *
- * @author <a href="mailto:matt@raibledesigns.com">Matt Raible</a>
+ * @author <a href="mailto:justomiguelvargas@gmail.com">Justo Vargas</a>
  */
 public class FileUpload {
     private String name;

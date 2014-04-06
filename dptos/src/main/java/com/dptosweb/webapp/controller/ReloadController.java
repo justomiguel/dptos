@@ -23,7 +23,7 @@ import java.util.List;
  * <a href="ReloadController.java.html"><i>View Source</i></a>
  * </p>
  *
- * @author <a href="mailto:matt@raibledesigns.com">Matt Raible</a>
+ * @author <a href="mailto:justomiguelvargas@gmail.com">Justo Vargas</a>
  */
 @Controller
 @RequestMapping("/admin/reload*")

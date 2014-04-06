@@ -8,7 +8,7 @@ import java.util.List;
  * Business Service Interface to talk to persistence layer and
  * retrieve values for drop-down choice lists.
  *
- * @author <a href="mailto:matt@raibledesigns.com">Matt Raible</a>
+ * @author <a href="mailto:justomiguelvargas@gmail.com">Justo Vargas</a>
  */
 public interface LookupManager {
     /**

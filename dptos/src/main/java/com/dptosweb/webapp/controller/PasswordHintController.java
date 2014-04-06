@@ -25,7 +25,7 @@ import java.util.List;
 /**
  * Simple class to retrieve and send a password hint to users.
  *
- * @author <a href="mailto:matt@raibledesigns.com">Matt Raible</a>
+ * @author <a href="mailto:justomiguelvargas@gmail.com">Justo Vargas</a>
  */
 @Controller
 @RequestMapping("/passwordHint*")

@@ -12,8 +12,12 @@
     <context:component-scan base-package="com.dptosweb"/>
 
     <!-- Add new DAOs here -->
-
+	<bean id="provinciaDao" class="com.dptosweb.dao.ciudades.hibernate.ProvinciaDaoHibernate" />
+    
     <!-- Add new Managers here -->
+    <bean id="provinciaManager" class="com.dptosweb.service.impl.ProvinciaManagerImpl">
+    	<property name="provinciasDao" ref="provinciaDao"/>
+    </bean>
     
     <!-- Configure and Alternative PasswordTokenManager -->
 	<!-- <bean id="passwordTokenManager" class="com.dptosweb.service.impl.PersistentPasswordTokenManagerImpl" autowire="default" /> -->

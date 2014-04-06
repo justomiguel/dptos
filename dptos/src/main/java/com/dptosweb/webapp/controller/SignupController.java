@@ -25,7 +25,7 @@ import org.tuckey.web.filters.urlrewrite.utils.StringUtils;
 /**
  * Controller to signup new users.
  *
- * @author <a href="mailto:matt@raibledesigns.com">Matt Raible</a>
+ * @author <a href="mailto:justomiguelvargas@gmail.com">Justo Vargas</a>
  */
 @Controller
 @RequestMapping("/signup*")

@@ -22,7 +22,7 @@ import java.util.Locale;
  * <b>NOTE</b> - This tag requires a Java2 (JDK 1.2 or later) platform.
  * </p>
  *
- * @author Jens Fischer, Matt Raible
+ * @author Jens Fischer, Justo Vargas
  * @version $Revision: 1.6 $ $Date: 2006/07/15 11:57:20 $
  *
  * @jsp.tag name="country" bodycontent="empty"

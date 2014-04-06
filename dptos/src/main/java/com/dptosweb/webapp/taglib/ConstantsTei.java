@@ -17,7 +17,7 @@ import java.util.List;
  * Implementation of <code>TagExtraInfo</code> for the <b>constants</b>
  * tag, identifying the scripting object(s) to be made visible.
  *
- * @author Matt Raible
+ * @author Justo Vargas
  */
 public class ConstantsTei extends TagExtraInfo {
     private final Log log = LogFactory.getLog(ConstantsTei.class);

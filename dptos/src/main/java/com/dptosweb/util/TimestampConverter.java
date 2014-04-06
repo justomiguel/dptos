@@ -12,7 +12,7 @@ import java.util.Date;
  * java.util.Date for use as a Timestamp. It is used by BeanUtils when copying
  * properties.
  * 
- * @author <a href="mailto:dan@getrolling.com">Dan Kibler</a>
+ * @author <a href="mailto:  ">    </a>
  */
 public class TimestampConverter extends DateConverter {
     /**

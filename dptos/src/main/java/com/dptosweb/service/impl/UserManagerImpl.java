@@ -24,7 +24,7 @@ import java.util.Map;
 /**
  * Implementation of UserManager interface.
  *
- * @author <a href="mailto:matt@raibledesigns.com">Matt Raible</a>
+ * @author <a href="mailto:justomiguelvargas@gmail.com">Justo Vargas</a>
  */
 @Service("userManager")
 @WebService(serviceName = "UserService", endpointInterface = "com.dptosweb.service.UserService")

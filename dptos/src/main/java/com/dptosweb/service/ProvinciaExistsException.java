@@ -8,15 +8,15 @@ package com.dptosweb.service;
  *
  * @author <a href="mailto:justomiguelvargas@gmail.com">Justo Vargas</a>
  */
-public class UserExistsException extends Exception {
-    private static final long serialVersionUID = 4050482305178810162L;
+public class ProvinciaExistsException extends Exception {
+    private static final long serialVersionUID = 4050483051788154162L;
 
     /**
      * Constructor for UserExistsException.
      *
      * @param message exception message
      */
-    public UserExistsException(final String message) {
+    public ProvinciaExistsException(final String message) {
         super(message);
     }
 }

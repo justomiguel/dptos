@@ -4,7 +4,7 @@ package com.dptosweb;
 /**
  * Constant values used throughout the application.
  *
- * @author <a href="mailto:matt@raibledesigns.com">Matt Raible</a>
+ * @author <a href="mailto:justomiguelvargas@gmail.com">Justo Vargas</a>
  */
 public final class Constants {
 

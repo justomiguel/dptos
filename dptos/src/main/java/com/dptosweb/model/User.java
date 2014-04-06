@@ -40,8 +40,8 @@ import org.springframework.security.core.userdetails.UserDetails;
  * This class represents the basic "user" object in AppFuse that allows for authentication
  * and user management.  It implements Acegi Security's UserDetails interface.
  *
- * @author <a href="mailto:matt@raibledesigns.com">Matt Raible</a>
- *         Updated by Dan Kibler (dan@getrolling.com)
+ * @author <a href="mailto:justomiguelvargas@gmail.com">Justo Vargas</a>
+ *         Updated by      (  )
  *         Extended to implement Acegi UserDetails interface
  *         by David Carter david@carter.net
  */

@@ -7,7 +7,7 @@ import java.io.Serializable;
  * Base class for Model objects. Child objects should implement toString(),
  * equals() and hashCode().
  * 
- * @author <a href="mailto:matt@raibledesigns.com">Matt Raible</a>
+ * @author <a href="mailto:justomiguelvargas@gmail.com">Justo Vargas</a>
  */
 public abstract class BaseObject implements Serializable {    
 

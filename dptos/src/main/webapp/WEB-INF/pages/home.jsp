@@ -11,14 +11,14 @@
         $(document).ready(function() {
             $('#locationToSearch').autocomplete(
             {
-                serviceUrl: '/getTags',
-                paramName: "tagName",
+            	serviceUrl: '/getTags',
+            	paramName: "tagName",
                 delimiter: ",",
                 transformResult: function(response) 
                 {
                     return {suggestions: $.map
                         ($.parseJSON(response), function(item) 
-                            { return { value: item.tagName, data: item.id };}
+                        		 { return { value: item.tagName, data: item.id };}
                             )   
                     };
                 }   

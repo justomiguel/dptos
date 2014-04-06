@@ -9,9 +9,11 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlRootElement;
 
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
+import org.hibernate.search.annotations.Indexed;
 
 
 /**
@@ -19,9 +21,11 @@ import org.apache.commons.lang.builder.ToStringStyle;
  */
 @Entity
 @Table(name = "localidades")
+@Indexed
+@XmlRootElement
 public class Localidad implements java.io.Serializable {
 
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 15876869834L;
 	
 	private int id;
 	private Departamento departamento;
