@@ -1,9 +1,12 @@
 package com.dptosweb.webapp.controller;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -64,6 +67,33 @@ public class HomeController extends BaseFormController {
 	@ModelAttribute("mainPlaceHolder")
 	public String getMainPlaceHolder() {
 		return getText("homeSearch.locationToSearchPlaceHolder", Locale.getDefault());
+	}
+
+	@ModelAttribute("operationType")
+	public Map getOperationType() {
+		Map<String,String> cOperationType = new LinkedHashMap<String,String>();
+		cOperationType.put("Co", "Comprar");
+		cOperationType.put("Al", "Alquilar");
+		return cOperationType;
+	}
+	
+	@ModelAttribute("propertyType")
+	public Map getPropertyTypes() {
+		Map<String,String> propertyTypes = new LinkedHashMap<String,String>();
+		propertyTypes.put("Co", "Cochera");
+		propertyTypes.put("Dpto", "Departamento");
+		propertyTypes.put("Ca", "Casa");
+		return propertyTypes;
+	}
+	
+	@ModelAttribute("roomCount")
+	public Map getRootCount() {
+		Map<Integer,String> country = new LinkedHashMap<Integer,String>();
+		for (int i = 1; i < 6; i++) {
+			country.put(i, i+((i>1)?" Habitaciones":" Habitacion"));
+		}
+		
+		return country;
 	}
 	
 	@ModelAttribute
