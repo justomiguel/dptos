@@ -45,6 +45,11 @@
     </ul>
     
      -->
+   <content tag="oopsSuccesses">
+    	<spring:hasBindErrors name="homeSearch">
+            <%@ include file="../../error.jsp" %>
+    	</spring:hasBindErrors>
+	</content>
    <form:form commandName="homeSearch" method="post" action="home" enctype="multipart/form-data"
         id="mainSearchBox">
     <spring:bind path="homeSearch.locationToSearch">

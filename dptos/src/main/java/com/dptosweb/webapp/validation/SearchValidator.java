@@ -1,5 +1,6 @@
 package com.dptosweb.webapp.validation;
 
+import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
@@ -7,7 +8,7 @@ import org.springframework.validation.Validator;
 import com.dptosweb.webapp.controller.forms.HomeSearch;
 
 
-
+@Component
 public class SearchValidator implements Validator{
 	
 	public void validate(Object obj, Errors e) {
