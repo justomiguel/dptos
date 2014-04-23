@@ -74,9 +74,11 @@ public class HomeController extends BaseFormController {
 	}
 
 	@RequestMapping(method = RequestMethod.POST)
-	public String onSubmit(FileUpload fileUpload, BindingResult errors,
+	public String onSubmit(@ModelAttribute ("homeSearch") HomeSearch homeSearch, BindingResult errors,
 			HttpServletRequest request) throws Exception {
-
+		if (errors.hasErrors()){
+			return getCancelView();
+		}
 		return getSuccessView();
 	}
 }
