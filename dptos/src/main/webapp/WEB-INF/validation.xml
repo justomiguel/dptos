@@ -50,5 +50,10 @@
                 <arg key="user.password"/>
             </field>
         </form>
+        <form name="homeSearch">
+        	<field property="locationToSearch" depends="required">
+        		<arg key="homeSearch.locationToSearch"/>
+        	</field>
+        </form>
     </formset>
 </form-validation>

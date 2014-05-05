@@ -103,10 +103,17 @@ public class HomeController extends BaseFormController {
 		return search;
 	}
 
-	@RequestMapping(method = RequestMethod.POST)
-	public String onSubmit(FileUpload fileUpload, BindingResult errors,
+	@RequestMapping(value = "/home*", method = RequestMethod.POST)
+	public String onSubmit(HomeSearch homeSearch, BindingResult errors,
 			HttpServletRequest request) throws Exception {
+		
+		if (validator != null) { // validator is null during testing
+            validator.validate(homeSearch, errors);
 
+            if (errors.hasErrors()) {
+                return "home";
+            }
+        }
 		return getSuccessView();
 	}
 }
