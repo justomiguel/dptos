@@ -47,6 +47,17 @@
     </ul>
     
      -->
+<div class="col-sm-7">
+    <spring:bind path="homeSearch.*">
+        <c:if test="${not empty status.errorMessages}">
+        <div class="alert alert-danger alert-dismissable">
+            <a href="#" data-dismiss="alert" class="close">&times;</a>
+            <c:forEach var="error" items="${status.errorMessages}">
+                <c:out value="${error}" escapeXml="false"/><br />
+            </c:forEach>
+        </div>
+        </c:if>
+    </spring:bind>
 	<form:form commandName="homeSearch" method="post" action="home"
 		enctype="multipart/form-data" id="mainSearchBox">
 		<spring:bind path="homeSearch.locationToSearch">
@@ -102,4 +113,9 @@
 			</button>
 		</div>
 	</form:form>
+</div>
 </body>
+<c:set var="scripts" scope="request">
+<v:javascript formName="homeSearch" staticJavascript="false"/>
+<script type="text/javascript" src="<c:url value="/scripts/validator.jsp"/>"></script>
+</c:set>
