@@ -20,8 +20,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.dptosweb.model.Tag;
+import com.dptosweb.model.ciudades.Departamento;
 import com.dptosweb.model.ciudades.Localidad;
 import com.dptosweb.model.ciudades.Provincia;
+import com.dptosweb.service.DepartamentoManager;
 import com.dptosweb.service.LocalidadManager;
 import com.dptosweb.service.ProvinciaManager;
 import com.dptosweb.service.UserManager;
@@ -35,6 +37,9 @@ public class HomeController extends BaseFormController {
 
 	@Autowired
 	LocalidadManager localidadesManager;
+	
+	@Autowired
+	DepartamentoManager departamentoManager;
 	
 	public HomeController() {
 		setCancelView("redirect:/home");
@@ -50,6 +55,10 @@ public class HomeController extends BaseFormController {
 		
 		for (Provincia pcias : provinciasManager.getProvincias()) {
 			data.add(new Tag(cont++, pcias.getNombre()));
+		}
+		
+		for (Departamento dpto: departamentoManager.getDepartamentos()) {
+			data.add(new Tag(cont++, dpto.getNombre()));
 		}
 		
 		for (Localidad localidades : localidadesManager.getLocalidades()) {

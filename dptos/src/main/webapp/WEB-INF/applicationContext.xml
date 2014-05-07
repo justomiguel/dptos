@@ -14,6 +14,7 @@
     <!-- Add new DAOs here -->
 	<bean id="provinciaDao" class="com.dptosweb.dao.ciudades.hibernate.ProvinciaDaoHibernate" />
 	<bean id="localidadDao" class="com.dptosweb.dao.ciudades.hibernate.LocalidadDaoHibernate" />
+	<bean id="departamentoDao" class="com.dptosweb.dao.ciudades.hibernate.DepartamentoDaoHibernate"/>
     
     <!-- Add new Managers here -->
     <bean id="provinciaManager" class="com.dptosweb.service.impl.ProvinciaManagerImpl">
@@ -22,6 +23,10 @@
     
     <bean id="localidadManager" class="com.dptosweb.service.impl.LocalidadManagerImpl">
     	<property name="localidadesDao" ref="localidadDao"/>
+    </bean>
+    
+    <bean id="departamentoManager" class="com.dptosweb.service.impl.DepartamentoManagerImpl">
+    	<property name="departamentoDao" ref="departamentoDao"/>
     </bean>
     
     <!-- Configure and Alternative PasswordTokenManager -->
